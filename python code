@@ -1,0 +1,6 @@
+def getNode(llist, positionFromTail):
+    l1=[]
+    while llist!=None:
+        l1.append(llist.data)
+        llist=llist.next
+    return l1[-positionFromTail-1]
